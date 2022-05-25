@@ -15,7 +15,7 @@ def prep_telco(df):
     df['paperless_billing_encoded'] = df.paperless_billing.map({'Yes': 1, 'No': 0})
     df['churn_encoded'] = df.churn.map({'Yes': 1, 'No': 0})
     
-    columns_to_drop = ['customer_id','internet_service_type_id','contract_type_id','payment_type_id','signup_date']
+    columns_to_drop = ['internet_service_type_id','contract_type_id','payment_type_id','signup_date']
     df = df.drop(columns = columns_to_drop)
     
     dummy_df = pd.get_dummies(df[['multiple_lines', \
