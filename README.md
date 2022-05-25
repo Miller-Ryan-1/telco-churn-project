@@ -151,4 +151,4 @@ You will need your own env file with database credentials along with all the nec
 - [ ] Add your own env file to your directory. (user, password, host)
 - [ ] Run the final_report.ipynb notebook
 
-##### Credit to Faith Kane (https://github.com/faithkane3) for the format of this README.md file.
+#### Credit to Faith Kane (https://github.com/faithkane3) for the format of this README.md file.
